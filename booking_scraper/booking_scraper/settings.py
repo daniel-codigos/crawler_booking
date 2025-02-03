@@ -58,8 +58,8 @@ CONCURRENT_REQUESTS = 8
 
 # Configurar Playwright para usar Chromium
 PLAYWRIGHT_BROWSER_TYPE = 'chromium'
-PLAYWRIGHT_LAUNCH_OPTIONS = {"headless": False}
 
+PLAYWRIGHT_LAUNCH_OPTIONS = {"headless": False}
 
 DOWNLOAD_HANDLERS = {
     "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
@@ -68,10 +68,6 @@ DOWNLOAD_HANDLERS = {
 
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
-# Opcional: Configurar opciones de lanzamiento de Playwright
-PLAYWRIGHT_LAUNCH_OPTIONS = {
-    "headless": True,  # Cambia a False si quieres ver el navegador
-}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
