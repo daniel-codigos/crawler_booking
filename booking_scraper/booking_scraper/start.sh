@@ -1,0 +1,1 @@
+scrapy crawl booking_sitemap
