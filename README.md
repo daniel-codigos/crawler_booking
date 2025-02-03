@@ -28,3 +28,8 @@ Para evitar errores de carga en la extraccion de datos se recomienda no elevar e
 ```
 CONCURRENT_REQUESTS = 8
 ```
+# 4. **Ejecutar**
+```
+cd booking_scraper
+sh start.sh
+```
