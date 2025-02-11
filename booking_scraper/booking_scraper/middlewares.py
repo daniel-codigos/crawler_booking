@@ -103,7 +103,6 @@ class BookingScraperDownloaderMiddleware:
         pass
 
     def download_request(self, request, spider):
-        # Asegura que las solicitudes con Playwright sean manejadas correctamente
         if request.meta.get("playwright", False):
             return self.playwright_handler.download_request(request, spider)
         return None
