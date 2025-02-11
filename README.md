@@ -4,6 +4,7 @@
 
 Extrae los sitemaps country de todos los tipos de alojamientos, descomprime y busca dentro los españoles. 
 Y extrae los datos de los 10 primeros de cada pagina de alojamientos y guarda el nombre, url, latitud y longitud.
+Se usa scrapy y Playwright, buena compatibilidad en linux Ubuntu.
 
 # 3. **Instalación**
 Instalar req.txt con pip:
